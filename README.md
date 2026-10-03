@@ -1,55 +1,71 @@
 # Cloud Engineering
 
-My Cloud Engineering learning journey, focused on **AWS**, cloud fundamentals, hands-on practice, infrastructure, automation, security, and advanced cloud deployment.
+My Cloud Engineering learning journey focused on **AWS**, covering cloud fundamentals, AWS services, hands-on infrastructure, automation, security, monitoring, and advanced cloud deployment.
 
 ## Learning Roadmap
 
 ### Phase 1 — Cloud & AWS Fundamentals
 
-Learning the core concepts of Cloud Engineering and exploring AWS.
+Understanding the foundations of Cloud Engineering and exploring AWS.
+
+Topics include:
 
 * Cloud Computing fundamentals
 * Cloud vs On-Premises
-* AWS Regions and what they are used for
-* Availability Zones
+* Benefits and challenges of cloud computing
 * AWS global infrastructure
-* AWS core concepts and services
-* Basic networking and cloud architecture
-* AWS account and console exploration
+* Regions
+* Availability Zones
+* AWS core concepts
+* AWS services overview
+* Basic cloud architecture
+* AWS Console exploration
+
+📁 **Detailed notes:** [`phrase-1`](./phrase-1)
 
 ### Phase 2 — AWS Services & Hands-On Practice
 
-Building practical experience by working directly with AWS services.
+Working directly with AWS services and building practical cloud infrastructure.
 
-* EC2 — creating and managing instances
-* Instance types, CPU, RAM, storage, and configuration
-* Starting, stopping, and terminating EC2 instances
-* Creating an instance from an existing template/image
-* Creating AMIs and launching duplicate instances
-* Load Balancing
+Topics include:
+
+* EC2 instances
+* Instance types and configurations
+* CPU, RAM, storage, and networking
+* Starting, stopping, and terminating instances
+* AMIs and instance duplication
+* Load Balancers
 * Auto Scaling Groups
-* Automatically launching additional EC2 instances based on demand
-* IAM users, permissions, and access management
+* Automatic instance creation based on demand
+* IAM users and permissions
 * S3 buckets and storage
 * Infrastructure as Code (IaC)
-* AWS networking and other core services
-* Hands-on cloud infrastructure management
+* AWS networking
+* Other AWS services and hands-on experiments
+
+📁 **Detailed notes:** [`phrase-2`](./phrase-2)
 
 ### Phase 3 — Advanced Cloud Engineering
 
-Moving toward advanced AWS architecture and real-world cloud engineering.
+Applying the knowledge from the previous phases to advanced and production-oriented cloud infrastructure.
 
-* Advanced AWS services and architecture
+Topics include:
+
+* Advanced AWS architecture
 * Infrastructure automation
-* Cloud security
-* Monitoring and logging
-* Scalability and high availability
+* High availability
+* Scalability
 * Reliability and fault tolerance
-* Cost-aware cloud infrastructure
-* CI/CD and deployment automation
-* Production-style AWS architecture
-* Large AWS deployment project combining the concepts learned across all phases
+* Security
+* Monitoring and logging
+* Cost-aware infrastructure
+* CI/CD
+* Deployment automation
+* Production-style cloud architecture
+* Large AWS deployment project combining multiple AWS services
+
+📁 **Detailed notes:** [`phrase-3`](./phrase-3)
 
 ## Goal
 
-Build strong practical skills in **AWS and Cloud Engineering** by progressing from fundamentals to hands-on infrastructure and finally to advanced, production-oriented cloud deployments.
+Build strong practical skills in **AWS and Cloud Engineering** by progressing from fundamental concepts to hands-on infrastructure and finally to advanced, production-oriented cloud deployments.
