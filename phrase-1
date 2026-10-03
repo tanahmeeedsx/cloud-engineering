@@ -1,0 +1,161 @@
+# Phase 1 — Cloud & AWS Fundamentals
+
+This phase focuses on understanding the fundamentals of **Cloud Engineering and AWS** before moving into hands-on infrastructure.
+
+## 1. What is Cloud Computing?
+
+Cloud Computing means using computing resources such as:
+
+* Servers
+* Storage
+* Databases
+* Networking
+* Applications
+* Computing power
+
+over the internet instead of managing everything on local physical hardware.
+
+Instead of purchasing and maintaining a physical server, we can use cloud resources from providers such as AWS.
+
+## 2. On-Premises vs Cloud
+
+### On-Premises
+
+In an on-premises environment, an organization manages its own physical infrastructure.
+
+This usually means managing:
+
+* Physical servers
+* Storage
+* Networking
+* Power
+* Cooling
+* Hardware maintenance
+* Data center infrastructure
+
+### Cloud
+
+With cloud computing, infrastructure is provided through a cloud provider.
+
+The organization can provision resources when needed without owning the physical hardware.
+
+### Basic Difference
+
+```text
+On-Premises
+     ↓
+Buy Hardware
+     ↓
+Install & Configure
+     ↓
+Maintain Infrastructure
+
+Cloud
+     ↓
+Choose Resources
+     ↓
+Provision
+     ↓
+Use & Manage
+```
+
+## 3. Why Cloud?
+
+Important cloud concepts include:
+
+* Scalability
+* Elasticity
+* High availability
+* Reliability
+* Global infrastructure
+* Pay-as-you-go pricing
+* Automation
+* On-demand resources
+
+## 4. AWS
+
+**Amazon Web Services (AWS)** is a cloud computing platform that provides many different infrastructure and managed services.
+
+AWS can provide resources for:
+
+* Compute
+* Storage
+* Networking
+* Databases
+* Security
+* Monitoring
+* Automation
+* Containers
+* Serverless applications
+* Machine Learning
+
+## 5. AWS Regions
+
+An AWS Region is a geographical area where AWS has infrastructure.
+
+Examples include regions in:
+
+* North America
+* Europe
+* Asia Pacific
+* Middle East
+* Other parts of the world
+
+Choosing a region is important because it can affect:
+
+* Latency
+* Service availability
+* Data location
+* Pricing
+* Compliance requirements
+
+## 6. Availability Zones
+
+An Availability Zone (AZ) is an isolated location within an AWS Region.
+
+A region normally contains multiple Availability Zones.
+
+```text
+AWS Region
+│
+├── Availability Zone A
+├── Availability Zone B
+└── Availability Zone C
+```
+
+Using multiple Availability Zones can help improve availability and fault tolerance.
+
+## 7. AWS Global Infrastructure
+
+AWS infrastructure is organized around concepts such as:
+
+```text
+AWS Global Infrastructure
+│
+├── Regions
+│   ├── Availability Zones
+│   └── Data Centers
+│
+└── Edge Locations
+```
+
+Understanding this structure is important before designing cloud infrastructure.
+
+## 8. AWS Core Services
+
+During this phase, I am exploring AWS services and understanding what each service is designed to do.
+
+Some important services include:
+
+* EC2 — Compute
+* S3 — Object Storage
+* IAM — Identity and Access Management
+* VPC — Networking
+* ELB — Load Balancing
+* Auto Scaling — Automatic scaling
+* CloudWatch — Monitoring
+* RDS — Managed databases
+
+## 9. Phase 1 Goal
+
+The main goal of this phase is to understand **how cloud computing works, how AWS is structured, and what the major AWS services are used for** before moving into practical infrastructure work.
